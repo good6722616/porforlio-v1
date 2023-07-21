@@ -1,6 +1,6 @@
 const funFacts = [
-  { id: 1, value: "777+", name: "Projects Completed" },
-  { id: 2, value: "3K", name: "Happy Clients" },
+  { id: 1, value: "10+", name: "Projects Completed" },
+  { id: 2, value: "Myself", name: "Happy Clients" },
   { id: 3, value: "9K+", name: "Lines of Code" },
 ];
 

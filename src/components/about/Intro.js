@@ -3,24 +3,19 @@ const Intro = () => {
   return (
     <Fragment>
       <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
+        <img style={{width: '300px', height: '400px'}} src="assets/img/slider/charleszzz.JPG" alt="image" />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-        <h3 className="text-[22px] font-bold">Adriano Smith</h3>
-        <span>Web Developer</span>
+        <h3 className="text-[22px] font-bold">Charles Zhang</h3>
+        <span>Front-End Developer</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Hi, my name is Charles Zhang
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          I love front end dev
+
         </p>
       </div>
       <div className="tokyo_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
@@ -31,19 +26,19 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Birthday:
                 </span>
-                <span>01.07.1990</span>
+                <span>10.17.1994</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Age:
                 </span>
-                <span>32</span>
+                <span>28</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Address:
                 </span>
-                <span>Ave 11, New York, USA</span>
+                <span>Irvine, CA USA</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -54,7 +49,7 @@ const Intro = () => {
                     className="text-[#767676] transition-all duration-300 hover:text-black"
                     href="mailto:tokyo@gmail.com"
                   >
-                    tokyo@gmail.com
+                    shhwkk54@gmail.com
                   </a>
                 </span>
               </li>
@@ -67,7 +62,7 @@ const Intro = () => {
                     className="text-[#767676] transition-all duration-300 hover:text-black"
                     href="tel:+77 022 177 05 05"
                   >
-                    +77 022 177 05 05
+                    6262782139
                   </a>
                 </span>
               </li>
@@ -87,7 +82,7 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Study:
                 </span>
-                <span>Univercity of Texas</span>
+                <span>Boston University</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -99,7 +94,7 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Interest:
                 </span>
-                <span>Playing Football</span>
+                <span>Playing Basketball</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">

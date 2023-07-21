@@ -1,9 +1,9 @@
 const knowledge = [
-  { id: 1, text: "Bootstrap, Angular" },
-  { id: 2, text: "React, Vue, Laravel" },
-  { id: 3, text: "Stylus, Sass, Less" },
-  { id: 4, text: "Gulp, Webpack, Grunt" },
-  { id: 5, text: "Tweenmax, GSAP" },
+  { id: 1, text: "Bootstrap, Tailwind" },
+  { id: 2, text: "React, Alpine, Jquery" },
+  { id: 3, text: "NodeJS, MongoDB, Firebase" },
+  { id: 4, text: "HubSpot, Wordpress, Shopify" },
+  { id: 5, text: "Git" },
 ];
 const interests = [
   { id: 1, text: "Make UI/UX Design" },

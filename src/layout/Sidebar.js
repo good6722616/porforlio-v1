@@ -42,7 +42,7 @@ const Sidebar = () => {
         </div>
         <div className="copyright w-full float-left">
           <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            © {new Date().getFullYear()} Tokyo
+            © {new Date().getFullYear()} Charleszzz
             <br />
             Created by{" "}
             <a
@@ -50,7 +50,7 @@ const Sidebar = () => {
               href="https://themeforest.net/user/Codeefly"
               target="_blank"
             >
-              Codeefly
+              Charles
             </a>
           </p>
         </div>

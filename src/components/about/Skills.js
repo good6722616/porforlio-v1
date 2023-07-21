@@ -1,12 +1,12 @@
 const programming = [
-  { id: 1, name: "WordPress", value: 95 },
-  { id: 2, name: "JavaScript", value: 80 },
-  { id: 3, name: "Angular", value: 90 },
+  { id: 1, name: "JavaScript", value: 80 },
+  { id: 2, name: "HTML5&CSS3", value: 80 },
+  { id: 3, name: "React", value: 70 },
 ];
 const language = [
-  { id: 1, name: "English", value: 90 },
-  { id: 2, name: "Russian", value: 95 },
-  { id: 3, name: "Arabic", value: 85 },
+  { id: 1, name: "English", value: 85 },
+  { id: 2, name: "Mandarin", value: 99 },
+  { id: 3, name: "Dangtunese", value: 90 },
 ];
 const Skills = () => {
   return (

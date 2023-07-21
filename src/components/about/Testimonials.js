@@ -10,17 +10,17 @@ const testimonialData = [
   },
   {
     id: 2,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
-    authorImage: "assets/img/testimonials/2.jpg",
-    authorName: "Isabelle Smith",
-    authorDesignation: "Content Manager",
+    text: "",
+    authorImage: "",
+    authorName: "",
+    authorDesignation: "",
   },
   {
     id: 3,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
-    authorImage: "assets/img/testimonials/3.jpg",
-    authorName: "Baraka Clinton",
-    authorDesignation: "English Teacher",
+    text: "",
+    authorImage: "",
+    authorName: "",
+    authorDesignation: "",
   },
 ];
 const Testimonials = () => {
