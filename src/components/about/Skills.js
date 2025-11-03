@@ -1,7 +1,11 @@
 const programming = [
-  { id: 1, name: "JavaScript", value: 80 },
-  { id: 2, name: "HTML5&CSS3", value: 80 },
-  { id: 3, name: "React", value: 70 },
+  { id: 1, name: "JavaScript", value: 90 },
+  { id: 2, name: "TypeScript", value: 85 },
+  { id: 3, name: "React.js", value: 88 },
+  { id: 4, name: "Next.js", value: 85 },
+  { id: 5, name: "Node.js", value: 82 },
+  { id: 6, name: "Python", value: 75 },
+  { id: 7, name: "HTML5 & CSS3", value: 90 },
 ];
 const language = [
   { id: 1, name: "English", value: 85 },

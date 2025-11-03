@@ -20,6 +20,17 @@ const DetailsModal = () => {
         <div className="portfolio_main_title">
           <h3>{portfolioDetailsModal.title}</h3>
           <span>{portfolioDetailsModal.category}</span>
+          {portfolioDetailsModal.websiteUrl && (
+            <div className="tokyo_tm_button mt-[20px]" data-position="left">
+              <a
+                href={portfolioDetailsModal.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Visit Website</span>
+              </a>
+            </div>
+          )}
           <div />
         </div>
         <div className="main_details w-full h-auto clear-both flex mb-[90px]">
@@ -62,6 +73,16 @@ const DetailsModal = () => {
                 </span>
                 <span>{portfolioDetailsModal.date}</span>
               </li>
+              {portfolioDetailsModal.technologies && (
+                <li className="mb-[8px] w-full float-left">
+                  <span className="first font-bold block text-black mb-[3px]">
+                    Technologies
+                  </span>
+                  <span className="text-[14px]">
+                    {portfolioDetailsModal.technologies.join(", ")}
+                  </span>
+                </li>
+              )}
               <li className="w-full float-left">
                 <span className="first font-bold block text-black mb-[3px]">
                   Share
@@ -69,7 +90,12 @@ const DetailsModal = () => {
                 <ul className="share list-none relative top-[7px]">
                   {portfolioDetailsModal.share.map((social) => (
                     <li className="mr-[10px] inline-block" key={social.id}>
-                      <a className="text-black text-[18px]" href={social.link}>
+                      <a
+                        className="text-black text-[18px]"
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className={social.iconName} />
                       </a>
                     </li>

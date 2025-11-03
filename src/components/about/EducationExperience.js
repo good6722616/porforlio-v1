@@ -1,9 +1,15 @@
 const experiencesData = [
   {
     id: 1,
-    date: "2023- Now",
-    designation: "Front-End Developer",
-    company: "TransGlobal Holding",
+    date: "Mar 2023 - Present",
+    designation: "Software Developer",
+    company: "TransGlobal Holding Co.",
+  },
+  {
+    id: 2,
+    date: "May 2021 - Feb 2023",
+    designation: "Junior Software Developer",
+    company: "Chuwa America",
   },
 ];
 const educationData = [

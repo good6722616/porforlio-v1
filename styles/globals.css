@@ -41,3 +41,20 @@ img.mfp-img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
+
+/* Fix for duplicate modal overlays and close buttons */
+.tokyo_tm_modalbox.opened ~ .mfp-bg,
+.mfp-bg.mfp-ready:not(.video-popup-bg):not(.audio-popup-bg) {
+  display: none !important;
+}
+
+/* Ensure only one close button is visible for portfolio modals */
+.tokyo_tm_modalbox.opened .close {
+  z-index: 20;
+}
+
+/* Hide any duplicate close buttons from Magnific Popup when tokyo modal is open */
+.tokyo_tm_modalbox.opened ~ .mfp-wrap .mfp-close,
+.tokyo_tm_modalbox.opened .mfp-close {
+  display: none !important;
+}

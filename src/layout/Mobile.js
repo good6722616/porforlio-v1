@@ -8,7 +8,7 @@ const Mobile = () => {
     <Fragment>
       <div className="tokyo_tm_topbar bg-white fixed top-0 left-0 right-0 h-[50px] z-[14] hidden">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
-          <div className="logo" data-type="image">
+          <div className="logo" data-type="text">
             {" "}
             {/* You can use image or text as logo. data-type values are "image" and "text" */}
             <a href="#">
@@ -18,7 +18,7 @@ const Mobile = () => {
                 alt="image"
               />
               <h3 className="font-black font-poppins text-[25px] tracking-[4px]">
-                TOKYO
+                CHARLES
               </h3>
             </a>
           </div>

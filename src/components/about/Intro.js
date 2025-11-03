@@ -3,37 +3,20 @@ const Intro = () => {
   return (
     <Fragment>
       <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img style={{width: '300px', height: '400px'}} src="assets/img/slider/charleszzz.JPG" alt="image" />
+        <img
+          style={{ width: "300px", height: "400px" }}
+          src="assets/img/slider/charleszzz.JPG"
+          alt="image"
+        />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Charles Zhang</h3>
-        <span>Front-End Developer</span>
-      </div>
-      <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
-        <p className="mb-[11px]">
-          Hi, my name is Charles Zhang
-        </p>
-        <p>
-          I love front end dev
-
-        </p>
+        <span>Software Developer</span>
       </div>
       <div className="tokyo_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
         <div className="left w-1/2 pr-[50px]">
           <div className="tokyo_tm_info w-full h-auto clear-both float-left">
             <ul className="m-0 list-none">
-              <li className="m-0">
-                <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Birthday:
-                </span>
-                <span>10.17.1994</span>
-              </li>
-              <li className="m-0">
-                <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Age:
-                </span>
-                <span>28</span>
-              </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Address:
@@ -47,9 +30,9 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="mailto:tokyo@gmail.com"
+                    href="mailto:zhangcharles830@gmail.com"
                   >
-                    shhwkk54@gmail.com
+                    zhangcharles830@gmail.com
                   </a>
                 </span>
               </li>
@@ -78,18 +61,7 @@ const Intro = () => {
                 </span>
                 <span>USA</span>
               </li>
-              <li className="m-0">
-                <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Study:
-                </span>
-                <span>Boston University</span>
-              </li>
-              <li className="m-0">
-                <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Degree:
-                </span>
-                <span>Master</span>
-              </li>
+
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Interest:
@@ -105,11 +77,6 @@ const Intro = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <div className="tokyo_tm_button" data-position="left">
-        <a href="assets/img/cv/1.jpg" download>
-          <span>Download CV</span>
-        </a>
       </div>
     </Fragment>
   );

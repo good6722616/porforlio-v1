@@ -43,7 +43,7 @@ const Home = () => {
                 Charles <span>Zhang</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a Front-End Developer
+                I am a Software Developer
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">

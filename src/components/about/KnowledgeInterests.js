@@ -1,16 +1,21 @@
 const knowledge = [
-  { id: 1, text: "Bootstrap, Tailwind" },
-  { id: 2, text: "React, Alpine, Jquery" },
-  { id: 3, text: "NodeJS, MongoDB, Firebase" },
-  { id: 4, text: "HubSpot, Wordpress, Shopify" },
-  { id: 5, text: "Git" },
+  { id: 1, text: "React.js, Next.js, Node.js, jQuery" },
+  {
+    id: 2,
+    text: "Tailwind CSS, Bootstrap, AntDesign, ShadcnUI, NextUI, DaisyUI",
+  },
+  { id: 3, text: "MongoDB, PostgreSQL, Supabase" },
+  { id: 4, text: "RESTful APIs, OAuth2/JWT, Clerk" },
+  { id: 5, text: "AWS (Lambda, EC2, S3, CloudWatch), Vercel" },
+  { id: 6, text: "Git, GitHub, Jest, Jira, ClickUp" },
+  { id: 7, text: "HubSpot, Shopify, WordPress" },
 ];
 const interests = [
-  { id: 1, text: "Make UI/UX Design" },
-  { id: 2, text: "Create Mobile App" },
-  { id: 3, text: "Site Optimization" },
-  { id: 4, text: "Custom Website" },
-  { id: 5, text: "Learn Ecommerce" },
+  { id: 1, text: "Building Responsive Web Applications" },
+  { id: 2, text: "Optimizing UI Performance" },
+  { id: 3, text: "Developing Secure RESTful APIs" },
+  { id: 4, text: "Full-Stack Development" },
+  { id: 5, text: "Agile Development & DevOps Practices" },
 ];
 
 const KnowledgeInterests = () => {

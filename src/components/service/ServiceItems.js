@@ -4,43 +4,51 @@ import { useContext } from "react";
 const services = [
   {
     id: 1,
-    name: "Web Design",
+    name: "Frontend Development",
     text: [
-      "Web Design",
+      "Build responsive, intuitive user interfaces using React.js, Next.js, and modern CSS frameworks. Create pixel-perfect designs from Figma mockups with cross-browser compatibility and optimized performance.",
     ],
     image: "assets/img/news/1.jpg",
   },
   {
     id: 2,
-    name: "Content Writing",
+    name: "Backend Development",
     text: [
-      "Content Writing",
+      "Develop secure, scalable RESTful APIs and GraphQL endpoints. Design database schemas, optimize queries, and implement authentication mechanisms using OAuth2/JWT.",
     ],
     image: "assets/img/news/2.jpg",
   },
   {
     id: 3,
-    name: "Live Chat",
+    name: "Full-Stack Development",
     text: [
-      "Live Chat",
+      "End-to-end development from concept to deployment. Build complete web applications with seamless frontend-backend integration, ensuring optimal performance and user experience.",
     ],
     image: "assets/img/news/4.jpg",
   },
   {
     id: 4,
-    name: "After Effects",
+    name: "Cloud Services & DevOps",
     text: [
-      "After Effects",
+      "Deploy and manage applications on AWS (EC2, Lambda, S3, CloudWatch) and Vercel. Implement CI/CD pipelines, automate workflows, and ensure scalable, fault-tolerant services.",
     ],
     image: "assets/img/news/1.jpg",
   },
   {
     id: 5,
-    name: "Mobile App",
+    name: "UI Component Libraries",
     text: [
-      "Mobile App",
+      "Design and develop reusable React component libraries. Establish consistent design systems that reduce development time and maintain design language across projects.",
     ],
     image: "assets/img/news/2.jpg",
+  },
+  {
+    id: 6,
+    name: "Performance Optimization",
+    text: [
+      "Optimize application performance through code-splitting, lazy loading, and refactoring. Improve load times and reduce code duplication for better user experience.",
+    ],
+    image: "assets/img/news/1.jpg",
   },
 ];
 const ServiceItems = () => {
